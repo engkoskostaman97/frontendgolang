@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Dropdown from 'react-bootstrap/Dropdown'
 import Navbar from 'react-bootstrap/Navbar';
+import Link from 'react-bootstrap/Link';
 import image1 from '../image/dumbflix.png';
 import image2 from '../image/Ellipse 1.png';
 import image3 from '../image/Vector.png';
@@ -78,7 +79,7 @@ export default function Listtrans() {
                                         <Dropdown.Toggle variant="dark" id="dropdown-basic">
                                         </Dropdown.Toggle>
                                         <Dropdown.Menu variant='dark'>
-                                            <Dropdown.Item href="/listfilms" className='d-flex '>
+                                            <Dropdown.Item as={Link} to="/listfilms" className='d-flex '>
                                                 <img src={image3} alt="image3" />
                                                 <p className='text-danger  mx-2 mt-3 mb-2'>Film</p>
                                             </Dropdown.Item>
