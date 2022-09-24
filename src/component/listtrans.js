@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Dropdown from 'react-bootstrap/Dropdown'
 import Navbar from 'react-bootstrap/Navbar';
-import Link from 'react-bootstrap/Link';
+import Link from 'react-bootstrap';
 import image1 from '../image/dumbflix.png';
 import image2 from '../image/Ellipse 1.png';
 import image3 from '../image/Vector.png';
