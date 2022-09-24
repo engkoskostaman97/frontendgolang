@@ -78,7 +78,7 @@ export default function Listtrans() {
                                         <Dropdown.Toggle variant="dark" id="dropdown-basic">
                                         </Dropdown.Toggle>
                                         <Dropdown.Menu variant='dark'>
-                                            <Dropdown.Item href="/listfilms" className='d-flex '>
+                                            <Dropdown.Item href="/addfilm" className='d-flex '>
                                                 <img src={image3} alt="image3" />
                                                 <p className='text-danger  mx-2 mt-3 mb-2'>Film</p>
                                             </Dropdown.Item>
