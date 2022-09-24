@@ -20,8 +20,6 @@ export default function ModalLogin({
     }
   }
   let Navigate = useNavigate();
-  let api = API();
-
   const navigate = useNavigate
 
   const [state, dispatch] = useContext(UserContext);
