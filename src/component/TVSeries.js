@@ -4,6 +4,7 @@ import SeriesListadmin from "./SeriesListadmin";
 import { useQuery, useMutation } from 'react-query';
 import { API } from '../config/api';
 import { UserContext } from '../context/userContext';
+import Film from "../components/Film";
 
 function SeriesContaineradmin() {
     const [state] = useContext(UserContext);
@@ -26,14 +27,14 @@ function SeriesContaineradmin() {
             <Container className="my-5 overflow-hidden" id="">
                 <h4 className="text-light mb-4">TV Series</h4>
                 <Row>
-                    {films?.map((movies, index) => {
+                    {films?.map((film, index) => {
                         return (
                             <Col md={2} key={index}>
                                 <SeriesListadmin
-                                    id={films?.id}
-                                    seriesImg={films?.thumbnailfilm}
-                                    title={films?.title}
-                                    year={films?.year}
+                                    id={film?.id}
+                                    seriesImg={film?.thumbnaifilm}
+                                    title={film?.title}
+                                    year={film?.year}
 
                                 />{" "}
                                 {/* Looping */}
