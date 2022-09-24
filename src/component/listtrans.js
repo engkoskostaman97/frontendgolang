@@ -9,8 +9,8 @@ import image3 from '../image/Vector.png';
 import Nav from 'react-bootstrap/Nav';
 import image4 from '../image/logout1.png';
 import { useEffect } from "react";
-// import { UserContext } from '../context/userContext'
-// import { useContext } from "react";
+import { UserContext } from '../context/userContext'
+import { useContext } from "react";
 
 
 export default function Listtrans() {
@@ -20,12 +20,12 @@ export default function Listtrans() {
     const user = localStorage.getItem('token')
     const [show, setShow] = useState(false);
 
-    // const [state, dispatch] = useContext(UserContext)
-    // const registerHere = (e) => {
-    //     e.preventDefault();
-    //     setRegisterShow(false);
-    //     setLoginShow(true);
-    // };
+    const [state, dispatch] = useContext(UserContext)
+    const registerHere = (e) => {
+        e.preventDefault();
+        setRegisterShow(false);
+        setLoginShow(true);
+    };
 
     const loginHere = (e) => {
         e.preventDefault();
