@@ -31,7 +31,7 @@ function SeriesContaineradmin() {
                             <Col md={2} key={index}>
                                 <SeriesListadmin
                                     id={movies?.id}
-                                    seriesImg={movies?.thumbnailFilm}
+                                    seriesImg={movies?.thumbnailfilm}
                                     title={movies?.title}
                                     year={movies?.year}
 
