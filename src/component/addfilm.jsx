@@ -96,9 +96,9 @@ function Addfilm() {
             const formData = new FormData();
             formData.set("title", form.title);
             formData.set(
-                "image",
-                form.thumbnailFilm[0],
-                form.thumbnailFilm[0].name
+                "ThumbnailFilm",
+                form?.ThumbnailFilm[0],
+                form?.ThumbnailFilm[0]?.name
             );
             formData.set("year", form?.year);
             formData.set("description", form?.description);
@@ -202,7 +202,7 @@ function Addfilm() {
                                     <Form.Control
                                         type="file"
                                         id="fileattach"
-                                        name="thumbnailFilm"
+                                        name="thumbnaiFilm"
                                         onChange={handleChange}
                                         hidden
                                     />
