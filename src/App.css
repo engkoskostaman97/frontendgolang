@@ -3,7 +3,7 @@
 }
 
 .detailCard::after {
-    content: 'In Play Now';
+    content: '';
     position: absolute;
     display: block;
     color: white;

@@ -69,7 +69,7 @@ function Listdetail() {
                     </div>
 
                     < Card style={{ backgroundColor: "black" }} className="detailCard d-flex align-items-center">
-                        <Card.Img variant="top" src={film?.thumbnaililm} />
+                        <Card.Img variant="top" src={film?.thumbnailfilm} />
                         <p className='text-light'>{film?.title}</p>
                     </Card>
                 </CardGroup>
