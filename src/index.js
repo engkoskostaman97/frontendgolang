@@ -6,7 +6,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { UserContextProvider } from './context/userContext';
 import { QueryClient, QueryClientProvider } from "react-query";
-import { HasRoute as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 const client = new QueryClient();
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
