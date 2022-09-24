@@ -31,10 +31,10 @@ function SeriesContaineradmin() {
                             <Col md={2} key={index}>
                                 <SeriesListadmin
                                     id={movies?.id}
-                                    seriesImg={movies?.thumbnailfilm}
+                                    seriesImg={movies?.thumbnailFilm}
                                     title={movies?.title}
                                     year={movies?.year}
-                                
+
                                 />{" "}
                                 {/* Looping */}
                             </Col>
