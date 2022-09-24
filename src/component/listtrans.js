@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useNavigate as navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Dropdown from 'react-bootstrap/Dropdown'
 import Navbar from 'react-bootstrap/Navbar';
