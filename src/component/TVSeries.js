@@ -30,10 +30,10 @@ function SeriesContaineradmin() {
                         return (
                             <Col md={2} key={index}>
                                 <SeriesListadmin
-                                    id={movies?.id}
-                                    seriesImg={movies?.thumbnailfilm}
-                                    title={movies?.title}
-                                    year={movies?.year}
+                                    id={films?.id}
+                                    seriesImg={films?.thumbnailfilm}
+                                    title={films?.title}
+                                    year={films?.year}
 
                                 />{" "}
                                 {/* Looping */}
