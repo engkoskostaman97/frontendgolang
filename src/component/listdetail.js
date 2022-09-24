@@ -47,7 +47,7 @@ function Listdetail() {
 
                     <div className='d-flex mb-5 mt-1 pt-5 col-8 mx-auto' >
                         <Card style={{ backgroundColor: "black" }} className="px-4">
-                            <Card.Img variant="top" src={film?.thumbnailFilm} />
+                            <Card.Img variant="top" src={film?.thumbnailfilm} />
 
                         </Card>
                         <div class="col-md-5 text-light text-justify ">
@@ -69,7 +69,7 @@ function Listdetail() {
                     </div>
 
                     < Card style={{ backgroundColor: "black" }} className="detailCard d-flex align-items-center">
-                        <Card.Img variant="top" src={film?.thumbnailfilm} />
+                        <Card.Img variant="top" src={film?.thumbnaililm} />
                         <p className='text-light'>{film?.title}</p>
                     </Card>
                 </CardGroup>
