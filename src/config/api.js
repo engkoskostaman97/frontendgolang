@@ -5,7 +5,7 @@ import axios from 'axios';
 //     baseURL: 'http://localhost:5000/api/v1/',
 // });
 export const API = axios.create({
-    baseURL: process.env.REACT_APP_BASEURL, // Get REACT_APP_BASEURL from env
+    baseURL: process.env.REACT_APP_BASEURL,
 });
 
 // Set Authorization Token Header
