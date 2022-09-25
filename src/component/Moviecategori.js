@@ -11,7 +11,7 @@ function MovieContaineradmin() {
     const [state] = useContext(UserContext);
 
 
-    let { data: films } = useQuery('moviesCache', async () => {
+    let { data: films } = useQuery('filmCache', async () => {
         const response = await API.get('/films');
         console.log("ini response", response)
 
@@ -35,10 +35,10 @@ function MovieContaineradmin() {
                         return (
                             <Col md={2} key={index}>
                                 <MovieListadmin
-                                    id={movies?.id}
-                                    movieImg={movies?.movieImg}
-                                    title={movies?.title}
-                                    year={movies?.year}
+                                    id={movies.id}
+                                    movieImg={movies.movieImg}
+                                    title={movies.title}
+                                    year={movies.year}
                                 />
                             </Col>
                         );
