@@ -36,7 +36,7 @@ function MovieContaineradmin() {
                             <Col md={2} key={index}>
                                 <MovieListadmin
                                     id={movies?.id}
-                                    movieImg={movies?.thumbnailfilm}
+                                    movieImg={movies?.movieImg}
                                     title={movies?.title}
                                     year={movies?.year}
                                 />
