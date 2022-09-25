@@ -27,9 +27,9 @@ function SeriesContaineradmin() {
             <Container className="my-5 overflow-hidden" id="">
                 <h4 className="text-light mb-4">TV Series</h4>
                 <Row>
-                    {films?.map((item, id) => {
+                    {films?.map((item, index) => {
                         return (
-                            <Col md={2} key={item}>
+                            <Col md={2} key={index}>
                                 <SeriesListadmin
                                     id={item.id}
                                     seriesImg={item.thumbnailfilm}
