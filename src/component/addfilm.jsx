@@ -97,8 +97,8 @@ function Addfilm() {
             formData.set("title", form.title);
             formData.set(
                 "ThumbnailFilm",
-                form?.ThumbnailFilm[0],
-                form?.ThumbnailFilm[0]?.name
+                form?.thumbnailFilm[0],
+                form?.thumbnailFilm[0]?.name
             );
             formData.set("year", form?.year);
             formData.set("description", form?.description);
