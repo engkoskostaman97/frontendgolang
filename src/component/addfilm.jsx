@@ -202,7 +202,7 @@ function Addfilm() {
                                     <Form.Control
                                         type="file"
                                         id="fileattach"
-                                        name="thumbnaiFilm"
+                                        name="thumbnailFilm"
                                         onChange={handleChange}
                                         hidden
                                     />
