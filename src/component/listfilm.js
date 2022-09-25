@@ -47,7 +47,7 @@ function Listfilm(props) {
                             </Dropdown.Menu>
                         </Dropdown>
                     </div>
-                    <div className="d-flex col-2" style={{ marginLeft: "120px" }}>
+                    <div className="d-flex col-2" style={{ marginLeft: "980px" }}>
                         <Button as={Link} to="/addfilm" variant="danger">
                             Add Film
                         </Button>
