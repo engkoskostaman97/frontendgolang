@@ -2,11 +2,11 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
 
-function MovieListadmin({ id, movieImg, title, year }) {
+function MovieListadmin({ id, thumbnailfilm, title, year }) {
     return (
         <Link to={`/listdetails/${id}`} className="text-decoration-none" >
             <Card className="rounded border-0 bg-black text-white">
-                <Card.Img variant="top" src={movieImg} style={{ height: "38vh" }} />
+                <Card.Img variant="top" src={thumbnailfilm} style={{ height: "38vh" }} />
                 <Card.Body>
                     <Card.Title>{title}</Card.Title>
                     <p className="text-muted">{year}</p>

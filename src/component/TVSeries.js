@@ -27,14 +27,14 @@ function SeriesContaineradmin() {
             <Container className="my-5 overflow-hidden" id="">
                 <h4 className="text-light mb-4">TV Series</h4>
                 <Row>
-                    {films?.map((films, index) => {
+                    {films?.map((item, id) => {
                         return (
-                            <Col md={2} key={index}>
+                            <Col md={2} key={item}>
                                 <SeriesListadmin
-                                    id={films?.id}
-                                    seriesImg={films?.thumbnaifilm}
-                                    title={films?.title}
-                                    year={films?.year}
+                                    id={item.id}
+                                    seriesImg={item.thumbnailfilm}
+                                    title={item.title}
+                                    year={item.year}
 
                                 />{" "}
                                 {/* Looping */}
