@@ -96,7 +96,7 @@ function Addfilm() {
             const formData = new FormData();
             formData.set("title", form.title);
             formData.set(
-                "thumbnailfilm",
+                "image",
                 form.thumbnailFilm[0],
                 form.thumbnailFilm[0].name
             );
